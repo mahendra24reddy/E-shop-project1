@@ -1,0 +1,96 @@
+@media (max-width:1030px){
+    /* Home css */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position:65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home-banner-text{
+        transform:translate(-80%,-50%) ;
+    }
+    /* offer css */
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 2.8rem;
+    }
+
+
+    /* special css */
+    .special .countdown-container .countdown-counter li{
+        padding: 2rem;
+    }
+
+}
+
+
+
+
+@media (max-width:991px){
+
+    /* HOme css */
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%, -50%);
+    }
+    /* special css */
+    .special .countdown-container{
+        padding-top:1rem ;
+        padding-bottom: 5rem;
+    }
+
+}
+
+
+@media (max-width:767px){
+
+    /* Home css */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 50% center;
+        min-height: 450px;
+    }
+
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+
+    .home .home-banner .home-banner-text h1{
+        font-size: 3rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+    }
+    .home .home-banner .home-banner-text .btn-outline-danger{
+        padding:0.5rem 1.5rem;
+    }
+
+    /* product css */
+    .products .up_to_content h2{
+        font-size: 12px;
+    }
+
+    /* specail css */
+    .special{
+        padding: 4rem 0;
+    }
+
+    .special .countdown-container .countdown-counter li{
+        padding: 1rem;
+        width:20% ;
+    }
+/* testimonial css */
+.testimonial .testimonial-wrapper{
+    padding: 1rem;
+}
+
+
+}
+
+@media (max-width:330px){
+    /* Home css */
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+
+
+}
